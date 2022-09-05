@@ -25,8 +25,48 @@
     .container-sm {
         max-width: 960px;
     }
+   
 
 }
+/*  margin-left: 70px;  */
+
+
+@media (max-width: 767px) {
+
+    .boton2{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .presentacion_h1,
+    .text,
+    .presentacion_iconos{
+        text-align: center;
+
+    }
+    .presentacion_iconos{
+        margin-left: 55px;
+    }
+    .boton2{
+        margin-bottom: 70px;
+    }
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm{
+        max-width: 767px;
+    }
+
+}
+
+
+
+
+
+
 
 .presentacion_foto {
     background-image: url(/assets/img/Vector.png);
@@ -120,6 +160,7 @@
 .habilidades__columnas {
     display: flex;
     justify-items: center;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: nowrap;
 }
